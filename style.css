@@ -1,0 +1,52 @@
+body {
+    background-color: #f3f1ff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    background-color: #ffffff;
+    width: 885px;
+    margin: auto;
+    padding: 30px;
+}
+
+.top-players {
+    margin-bottom: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+
+}
+
+.title-section {
+    font-size: 24px;
+    color: blue;
+    margin-top: 0;
+
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+    margin: 0px 10px;
+}
+
+hr {
+    border: 1px solid #d1d1d1;
+
+}
